@@ -1,0 +1,32 @@
+{
+  "name": "MorseLang",
+  "scopeName": "source.mml",
+  "patterns": [
+    {
+      "match": "\\.-",
+      "name": "keyword.variable.mml"
+    },
+    {
+      "match": "\\...---...",
+      "name": "keyword.function.mml"
+    },
+    {
+      "match": "-.-.",
+      "name": "keyword.print.mml"
+    },
+    {
+      "match": "--..--",
+      "name": "punctuation.separator.comma.mml"
+    },
+    {
+      "match": "\\-",
+      "name": "constant.numeric.mml"
+    },
+    {
+      "match": "\\..---",
+      "name": "constant.numeric.mml"
+    }
+  ],
+  "repository": {},
+  "uuid": "d04b6e3a-83a3-4c09-8b92-b13fdbe6b27a"
+}

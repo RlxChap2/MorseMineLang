@@ -1,0 +1,25 @@
+{
+  "name": "mml",
+  "displayName": ".mml",
+  "description": "Morse Code Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "mml",
+      "aliases": ["MorseLang", "mml"],
+      "extensions": [".mml"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "mml",
+      "scopeName": "source.mml",
+      "path": "./syntaxes/mml.tmLanguage.json"
+    }]
+  }
+}
